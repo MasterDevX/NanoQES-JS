@@ -59,8 +59,7 @@ input[type=number]::-webkit-outer-spin-button{
     margin-left: 145px;
 }
 #inside{
-    display: inline-block;
-    margin-left: -138px;
+    width: fit-content;
 }
 #solved{
     visibility: hidden;
