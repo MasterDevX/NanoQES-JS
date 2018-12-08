@@ -1,0 +1,77 @@
+#input_a, #input_b, #input_c{
+    width: 75px;
+    height: 20px;
+    border: #005bbb solid 1px;
+    color: #005bbb;
+    text-align: center;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+#solvebutton{
+    transition: all .5s;
+    border: #005bbb solid 2px;
+    background: #005bbb;
+    color: white;
+    border-radius: 2px;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+#solvebutton:hover{
+    transition: all .5s;
+    background: white;
+    color: #005bbb;
+    cursor: pointer;
+}
+.btnlng{
+    transition: all .5s;
+    border: #005bbb solid 2px;
+    background: #005bbb;
+    color: white;
+    border-radius: 2px;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    float: left;
+    margin-right: 5px;
+}
+.btnlng:hover{
+    transition: all .5s;
+    background: white;
+    color: #005bbb;
+    cursor: pointer;
+}
+.text{
+    font-size: 20px;
+    color: #005bbb;
+}
+#line{
+    height: 300px;
+    width: 2px;
+    background: #005bbb;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 145px;
+}
+#inside{
+    display: inline-block;
+    margin-left: -138px;
+}
+#solved{
+    visibility: hidden;
+    position: absolute;
+    margin-left: 158px;
+}
+#info{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+#gitlink:link, #gitlink:visited, #gitlink:active{
+    color: #005bbb;
+}
