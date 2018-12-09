@@ -72,7 +72,3 @@ input[type=number]::-webkit-outer-spin-button{
 #gitlink:link, #gitlink:visited, #gitlink:active{
     color: #005bbb;
 }
-#uimain{
-    height: fit-content;
-}
-
