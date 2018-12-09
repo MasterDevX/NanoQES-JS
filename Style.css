@@ -51,11 +51,9 @@ input[type=number]::-webkit-outer-spin-button{
     color: #005bbb;
 }
 #line{
-    height: 300px;
     width: 2px;
     background: #005bbb;
     position: absolute;
-    margin-top: 2px;
     margin-left: 145px;
 }
 #inside{
@@ -74,3 +72,7 @@ input[type=number]::-webkit-outer-spin-button{
 #gitlink:link, #gitlink:visited, #gitlink:active{
     color: #005bbb;
 }
+#uimain{
+    height: fit-content;
+}
+
