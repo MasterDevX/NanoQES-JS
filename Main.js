@@ -1,7 +1,7 @@
-window.onload = function(){
+document.addEventListener("DOMContentLoaded", function(){
     Preload();
     SetENG();
-}
+});
 function Preload(){
     uiheight = document.getElementById("uimain").offsetHeight;
     uiheightx = (uiheight + "px");
