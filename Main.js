@@ -109,6 +109,6 @@ function SolvedOut(){
         document.getElementById("solved").innerHTML += l13 + "<br>";
     }
 }
-function SetStatus(){
+function Preload(){
     sbts = 1;
 }
