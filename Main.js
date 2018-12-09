@@ -1,3 +1,10 @@
+window.onload = function(){
+    Preload();
+    SetENG();
+}
+function Preload(){
+    sbts = 1;
+}
 function SolveEquation(){
     if(sbts == 1){
         a = document.getElementById("input_a").value;
@@ -108,7 +115,4 @@ function SolvedOut(){
         document.getElementById("solved").innerHTML += "&nbsp&nbsp&nbsp D = b²-4ac = " + xalias_b + "²-4·" + xalias_a + "·" + xalias_c + " = " + bs + "-" + xalias_fxac + " = " + d + " < 0" + "<br>";
         document.getElementById("solved").innerHTML += l13 + "<br>";
     }
-}
-function Preload(){
-    sbts = 1;
 }
