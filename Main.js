@@ -3,9 +3,7 @@ window.onload = function(){
     SetENG();
 }
 function Preload(){
-    uiheight = document.getElementById("uimain").offsetHeight;
-    uiheightx = (uiheight + "px");
-    document.getElementById("line").style.height = uiheightx;
+    document.getElementById("line").style.height = "0px";
     sbts = 1;
 }
 function SolveEquation(){
@@ -56,6 +54,10 @@ function SolveEquation(){
         eqfinal = (alias_a + "x²" + alias_b + x + alias_c + "=0");
         document.getElementById("equationview").innerHTML = eqfinal;
         document.getElementById("solvebutton").innerHTML = l6;
+        document.getElementById("uimain").style.height = "fit-content";
+        uiheight = document.getElementById("uimain").offsetHeight;
+        uiheightx = (uiheight + "px");
+        document.getElementById("line").style.height = uiheightx;
         document.getElementById("input_a").readOnly = true;
         document.getElementById("input_b").readOnly = true;
         document.getElementById("input_c").readOnly = true;
@@ -76,6 +78,7 @@ function SolveEquation(){
         document.getElementById("solvebutton").innerHTML = l1;
         document.getElementById("line").style.marginLeft = "145px";
         document.getElementById("solved").style.marginLeft = "158px";
+        document.getElementById("line").style.height = "0px";
         document.getElementById("input_a").readOnly = false;
         document.getElementById("input_b").readOnly = false;
         document.getElementById("input_c").readOnly = false;
