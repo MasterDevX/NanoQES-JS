@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function(){
     SetENG();
 }, false);
 function Preload(){
+    document.getElementById("uimain").style.height = "fit-content";
     uiheight = document.getElementById("uimain").offsetHeight;
     uiheightx = (uiheight + "px");
     document.getElementById("line").style.height = uiheightx;
