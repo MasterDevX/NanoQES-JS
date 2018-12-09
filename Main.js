@@ -3,6 +3,9 @@ window.onload = function(){
     SetENG();
 }
 function Preload(){
+    uiheight = document.getElementById("uimain").offsetHeight;
+    uiheightx = (uiheight + "px");
+    document.getElementById("line").style.height = uiheightx;
     sbts = 1;
 }
 function SolveEquation(){
