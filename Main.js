@@ -3,6 +3,12 @@ window.onload = function(){
     SetENG();
 }
 function Preload(){
+    body = document.body;
+    body.addEventListener("keyup", function(event){
+        if(event.keyCode == 13 && sbts == 1){
+            document.getElementById("solvebutton").click();
+        }
+    });
     document.getElementById("line").style.height = "0px";
     sbts = 1;
 }
