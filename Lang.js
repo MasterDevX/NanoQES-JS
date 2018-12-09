@@ -1,7 +1,3 @@
-window.onload = function(){
-    SetStatus();
-    SetENG();
-}
 function SetENG(){
     l1 = "Solve";
     l2 = "Value \"a\" can not be equal to 0!";
